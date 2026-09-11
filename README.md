@@ -1,7 +1,27 @@
 # Business Intelligence & Data Analytics Portfolio
 
 A collection of end-to-end business intelligence case studies built using Microsoft Power BI, Power Query, DAX, SQL, and Python.
-
+**Repository Structure**
+```text
+├── notebook/
+│   └── health_analysis.ipynb
+├── sql/
+│   ├── hospital_insurance.sql
+│   ├── hr_attrition.sql
+│   └── retail_kpi.sql
+├── HR Attrition Rate.pbix
+├── HR-Attrition-Demo.gif
+├── HR-Attrition-Overview.png
+├── HR-Operations-Workload.png
+├── Hospital and Insurance Analytics.pbix
+├── Hospital-Operations-Demo.gif
+├── Hospital-Operations.png
+├── Insurance-Profiling.png
+├── Retail-KPI-Category.png
+├── Retail-KPI-Demo.gif
+├── Retail-KPI-Overview.png
+└── Toy Store KPI Report.pbix
+```
 ---
 
 ## Case Study 1: HR Attrition & Operations Analytics
