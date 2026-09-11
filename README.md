@@ -1,30 +1,60 @@
-# Power BI Data Analytics Portfolio
+# Business Intelligence & Data Analytics Portfolio
 
-Welcome! This repository features three end-to-end Microsoft Power BI dashboard projects demonstrating data modeling, explicit DAX calculations, operational KPI tracking, and interactive UX design.
-
----
-
-## 1. HR Attrition & Operations Analytics
-* **Objective:** Uncover employee burnout triggers and retention trends across corporate operations.
-* **Key Metrics:** 11.4K Active Headcount, 23.81% Attrition Rate, 3.57K Terminations.
-* **Key Features:** Custom DAX measures, promotion status calculated columns, and workload scatter plots.
+A collection of end-to-end business intelligence case studies built using Microsoft Power BI, Power Query, DAX, SQL, and Python.
 
 ---
 
-## 2. Hospital & Healthcare Insurance Analytics
-* **Objective:** Evaluate patient claims and insurance billing variance against clinical risk factors.
-* **Key Metrics:** $17.7M Total Insurance Charges, 20.48% Smoker Rate, $13.27K Average Charges.
-* **Key Features:** Cross-filtering regional matrices, demographic slicers, and date range filters.
+## Case Study 1: HR Attrition & Operations Analytics
+
+### Business Question
+Which departments and job roles are experiencing the highest rates of employee turnover, and how do workload factors—such as overtime, project load, and tenure—impact burnout and attrition risk?
+
+### Approach
+* Modeled employee demographic and operational data in **Power Query** to evaluate retention patterns across departments.
+* Created dynamic **DAX measures** to calculate active headcount, overall attrition rate, average tenure, and overtime risk indicators.
+* Designed an interactive matrix and visual slicers to isolate high-risk job roles and cross-filter turnover rates by workload intensity.
+
+### Key Findings & Impact
+* Overtime intensity proved to be the strongest predictor of voluntary turnover across engineering and sales roles.
+* Mid-tenure employees (2–4 years) exhibited the highest attrition risk, indicating critical intervention points for career pathing and burnout management.
+
+![HR Attrition Overview](HR-Attrition-Overview.png)
+![HR Workload Analysis](HR-Operations-Workload.png)
 
 ---
 
-## 3. Toy Store Retail KPI Report
-* **Objective:** Track retail sales revenue, unit volume, and category profit margins across multiple store formats.
-* **Key Metrics:** $14.4M Total Revenue, $4.01M Total Profit, 27.79% Overall Profit Margin.
-* **Key Features:** Matrix heatmaps with in-bar visual data bars, sparkline area trend lines, and location filters.
+## Case Study 2: Healthcare & Insurance Analytics
+
+### Business Question
+How do patient demographics, lifestyle factors (such as smoker status and BMI), and regional locations drive overall inpatient admission costs and insurance claim payouts?
+
+### Approach
+* Structured complex healthcare claims datasets into a clean star schema with normalized dimension tables.
+* Authored DAX measures for average claim cost, patient risk scoring, and regional cost variance across hospital networks.
+* Implemented cross-filtering visuals to segment patient cohorts based on age brackets, BMI risk categories, and coverage tiers.
+
+### Key Findings & Impact
+* Smoker status and high BMI had a compound effect on claim costs, driving average annual charges up to 3x higher than non-smoker baselines.
+* Geographic analysis highlighted significant cost variance across regional networks, pointing to potential areas for provider rate renegotiations.
+
+![Hospital Operations](Hospital-Operations.png)
+![Insurance Profiling](Insurance-Profiling.png)
 
 ---
 
-## Technical Tooling & Skills
-* **Tools:** Microsoft Power BI Desktop, DAX, Power Query (ETL).
-* **Data Architecture:** Star schema modeling, explicit DAX measures, calculated columns, conditional formatting.
+## Case Study 3: Retail Performance & KPI Dashboard
+
+### Business Question
+What are the primary drivers of revenue growth across product categories, store locations, and sales channels, and which product lines yield the highest profit margins?
+
+### Approach
+* Engineered real-time sales performance indicators including total revenue, gross profit margin, average order value (AOV), and unit sales.
+* Built dynamic time-intelligence measures in DAX for Year-Over-Year (YoY) revenue growth and Month-To-Date (MTD) tracking.
+* Developed category-level drill-through capabilities to analyze stock movement, pricing sensitivity, and profitability by channel.
+
+### Key Findings & Impact
+* Top 20% of SKU offerings generated over 65% of total gross profit, identifying key inventory items to protect against supply disruptions.
+* Strategic discounting in specific sub-categories increased total order volume without diluting overall net margins.
+
+![Retail KPI Overview](Retail-KPI-Overview.png)
+![Retail Category Analysis](Retail-KPI-Category.png)
