@@ -40,6 +40,8 @@ Which departments and job roles are experiencing the highest rates of employee t
 
 ![HR Attrition Overview](HR-Attrition-Overview.png)
 ![HR Workload Analysis](HR-Operations-Workload.png)
+![HR Attrition Dynamic Walkthrough](HR-Attrition-Demo.gif)
+*Interactive walkthrough demonstrating dynamic cross-filtering and department slicers.*
 
 ---
 
@@ -59,6 +61,8 @@ How do patient demographics, lifestyle factors (such as smoker status and BMI), 
 
 ![Hospital Operations](Hospital-Operations.png)
 ![Insurance Profiling](Insurance-Profiling.png)
+![Healthcare Analytics Dynamic Walkthrough](Hospital-Operations-Demo.gif)
+*Interactive walkthrough showing patient risk profiling and regional cost filters.*
 
 ---
 
@@ -78,3 +82,5 @@ What are the primary drivers of revenue growth across product categories, store 
 
 ![Retail KPI Overview](Retail-KPI-Overview.png)
 ![Retail Category Analysis](Retail-KPI-Category.png)
+![Retail KPI Dynamic Walkthrough](Retail-KPI-Demo.gif)
+*Interactive walkthrough displaying category drill-throughs and YoY time-intelligence views.*
