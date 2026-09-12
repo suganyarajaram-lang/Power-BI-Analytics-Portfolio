@@ -2,6 +2,8 @@
 
 A collection of end-to-end business intelligence case studies built using Microsoft Power BI, Power Query, DAX, SQL, and Python.
 **Repository Structure**
+
+##
 ```text
 ├── notebooks/
 │   └── health_analysis.ipynb
