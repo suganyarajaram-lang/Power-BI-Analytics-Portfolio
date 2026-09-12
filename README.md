@@ -3,7 +3,7 @@
 A collection of end-to-end business intelligence case studies built using Microsoft Power BI, Power Query, DAX, SQL, and Python.
 **Repository Structure**
 ```text
-├── notebook/
+├── notebooks/
 │   └── health_analysis.ipynb
 ├── sql/
 │   ├── hospital_insurance.sql
@@ -64,7 +64,7 @@ How do patient demographics, lifestyle factors (such as smoker status and BMI), 
 ---
 **Technical Artifacts & Code:**
 * **SQL Queries & Benchmarks:** [`sql/hospital_insurance.sql`](sql/hospital_insurance.sql)
-* **Python Exploratory Data Analysis:** [`notebook/health_analysis.ipynb`](notebook/health_analysis.ipynb)
+* **Python Exploratory Data Analysis:** [`notebooks/health_analysis.ipynb`](notebook/health_analysis.ipynb)
 ---
 ![Hospital Operations](Hospital-Operations.png)
 ![Insurance Profiling](Insurance-Profiling.png)
