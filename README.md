@@ -1,9 +1,7 @@
 # Business Intelligence & Data Analytics Portfolio
 
 A collection of end-to-end business intelligence case studies built using Microsoft Power BI, Power Query, DAX, SQL, and Python.
-**Repository Structure**
-
-##
+## Repository Structure
 ```text
 ├── notebooks/
 │   └── health_analysis.ipynb
@@ -24,12 +22,12 @@ A collection of end-to-end business intelligence case studies built using Micros
 ├── Retail-KPI-Overview.png
 └── Toy Store KPI Report.pbix
 ```
----
+
 
 ## Case Study 1: HR Attrition & Operations Analytics
 
 ### Business Question
-Which departments and job roles are experiencing the highest rates of employee turnover, and how do workload factors—such as overtime, project load, and tenure—impact burnout and attrition risk?
+Which departments and job roles are experiencing the highest rates of employee turnover, and how do workload factors such as overtime, project load, and tenure impact burnout and attrition risk?
 
 ### Approach
 * Modeled employee demographic and operational data in **Power Query** to evaluate retention patterns across departments.
@@ -39,16 +37,15 @@ Which departments and job roles are experiencing the highest rates of employee t
 ### Key Findings & Impact
 * Overtime intensity proved to be the strongest predictor of voluntary turnover across engineering and sales roles.
 * Mid-tenure employees (2–4 years) exhibited the highest attrition risk, indicating critical intervention points for career pathing and burnout management.
----
+  
 **Technical Artifacts & Code:**
 * **SQL Data Transformations:** [`sql/hr_attrition.sql`](sql/hr_attrition.sql)
----
+  
 ![HR Attrition Overview](HR-Attrition-Overview.png)
 ![HR Workload Analysis](HR-Operations-Workload.png)
 ![HR Attrition Dynamic Walkthrough](HR-Attrition-Demo.gif)
 *Interactive walkthrough demonstrating dynamic cross-filtering and department slicers.*
 
----
 
 ## Case Study 2: Healthcare & Insurance Analytics
 
@@ -63,17 +60,16 @@ How do patient demographics, lifestyle factors (such as smoker status and BMI), 
 ### Key Findings & Impact
 * Smoker status and high BMI had a compound effect on claim costs, driving average annual charges up to 3x higher than non-smoker baselines.
 * Geographic analysis highlighted significant cost variance across regional networks, pointing to potential areas for provider rate renegotiations.
----
+
 **Technical Artifacts & Code:**
 * **SQL Queries & Benchmarks:** [`sql/hospital_insurance.sql`](sql/hospital_insurance.sql)
-* **Python Exploratory Data Analysis:** [`notebooks/health_analysis.ipynb`](notebook/health_analysis.ipynb)
----
+* **Python Exploratory Data Analysis:** [`notebooks/health_analysis.ipynb`](notebooks/health_analysis.ipynb)
+  
 ![Hospital Operations](Hospital-Operations.png)
 ![Insurance Profiling](Insurance-Profiling.png)
 ![Healthcare Analytics Dynamic Walkthrough](Hospital-Operations-Demo.gif)
 *Interactive walkthrough showing patient risk profiling and regional cost filters.*
 
----
 
 ## Case Study 3: Retail Performance & KPI Dashboard
 
@@ -88,10 +84,10 @@ What are the primary drivers of revenue growth across product categories, store 
 ### Key Findings & Impact
 * Top 20% of SKU offerings generated over 65% of total gross profit, identifying key inventory items to protect against supply disruptions.
 * Strategic discounting in specific sub-categories increased total order volume without diluting overall net margins.
----
+  
 **Technical Artifacts & Code:**
 * **SQL Aggregations & Joins:** [`sql/retail_kpi.sql`](sql/retail_kpi.sql)
----
+
 ![Retail KPI Overview](Retail-KPI-Overview.png)
 ![Retail Category Analysis](Retail-KPI-Category.png)
 ![Retail KPI Dynamic Walkthrough](Retail-KPI-Demo.gif)
